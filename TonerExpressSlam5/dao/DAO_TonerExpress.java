@@ -11,7 +11,7 @@ public class DAO_TonerExpress
 
 	public static Vector <Imprimante> getLesImprimantes()
 	{
-		Vector <Imprimante> lesImp;
+		Vector <Imprimante> lesImp= new Vector <Imprimante>();
 		ResultSet resImp, resType, resCart;
 		TypeImprimante leType;
 		ArrayList <Cartouche> lesCartouches;
